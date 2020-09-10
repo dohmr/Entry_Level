@@ -6,12 +6,12 @@ Repo for Self-Depot
   Repository can be found..[here](https://github.com/dohmr/Entry_Level)
     
 # Usage is **simple**.
-  Navbar is located ontop, and there will 3 options of 
+  Navbar is located ontop, and there are _4_ options of 
    #### Home | Portfolio | Contacts
     Home contains a brief bio, as well as links to appropriate social media.
     Portfolio contains original placeholder images.
     Contacts will give the user the ability to reach me, via email.
-    The top left icon is also an email prompt.
+    The top left icon is *also* an email prompt.
     Images are within the /Portfolio folder within the repository.
     
     The repository holds each page of HTML, as well as a small amount of css.
