@@ -16,8 +16,8 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-    <a class="navbar-brand" href="#">SHAWN Y.</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="p-3 mb-2 bg-primary text-white" href="mailto:theshawns0n@gmail.com">.shawnYandall</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,42 +25,27 @@
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav mr">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">CONTACTS</a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="portfolio/portfolio.html" id="navbarDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            PORTFOLIO
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="Portfolio\portfolio.html">Web</a>
-            <a class="dropdown-item" href="Portfolio\graphics.html">Graphics</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="Portfolio\sounds.html">Sounds</a>
-          </div>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contacts</a>
         </li>
-
+      </ul>
     </div>
   </nav>
 
-  <div class="container-md" style="padding: 20px; align-content: center">
-    <div class="row-no-gutters" style="max-width: 740px">
-      <div class="col lg-6">
-        <a href="#" class="list-group-item list-group-item-action">E-Mail</a>
-        <a href="#" class="list-group-item list-group-item-action">GitHUB</a>
-        <a href="#" class="list-group-item list-group-item-action">STACKoverFlow</a>
-        <a href="#" class="list-group-item list-group-item-action">LinkedIN
-
-        </a>
-      </div>
-      <br>
-      <div class="row-no-gutters" style="max-width: 740px">
-        <div class="col lg-6">
-          <form>
+  <div class="container-sm" style="margin: 2em auto; padding: 2em auto">
+    <div class="row" style="max-width: 991px; height: 20%">
+      <div class="col">
+        <div class="card" style="margin: 2em auto; padding: 2em;">
+          <span class="border-bottom">
+            <h1>Contact Me</h1>
+          </span>
+          <div class="col md-6" style="margin: 1em auto">
             <div class="form-group">
               <label for="formGroupExampleInput">Name</label>
               <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Shon Doe">
@@ -71,15 +56,19 @@
             </div>
             <div class="form-group">
               <label for="exampleFormControlTextarea1">Message?</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Something nice?"
+                rows="3"></textarea>
             </div>
-          </form>
+            <div class="row">
+              <div class="col md-8">
+                <a href="mailto:theshawns0n@gmail.com" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Send !</a>
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
     </div>
   </div>
-
 
 
 
