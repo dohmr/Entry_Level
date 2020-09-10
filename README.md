@@ -2,7 +2,7 @@
 Repo for Self-Depot
 
 # Installation
-  Website is deployed via [gitHub](https://dohmr.github.io/Entry_Level/)
+  Website is deployed via [gitHub](https://dohmr.github.io/Entry_Level/).
   Repository can be found..[here](https://github.com/dohmr/Entry_Level)
     
 # Usage is **simple**.
@@ -13,6 +13,9 @@ Repo for Self-Depot
     Contacts will give the user the ability to reach me, via email.
     The top left icon is also an email prompt.
     Images are within the /Portfolio folder within the repository.
+    
+    The repository holds each page of HTML, as well as a small amount of css.
+    The layout was created using the Bootstrap framework.
  
 # Creation 
 This layout and website was created by myself, with the guidance of my instructor, assistance from my T.A., and helpful questions from my peers.
