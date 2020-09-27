@@ -1,10 +1,13 @@
 * {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 body {
   background-color: whitesmoke;
+
 
 }
 
@@ -14,11 +17,15 @@ h1 {
   color: #007bff;
 }
 
+main {
+  margin: 100px auto;
+}
+
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;;
 }
 
 label {
-  font-family: Arial, Helvetica, sans-serif
+  font-family:'Montserrat', sans-serif;
 }
