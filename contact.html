@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Contact Info</title>
+  <script src="https://kit.fontawesome.com/d45730e484.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -15,79 +16,64 @@
 
 </head>
 
-<body>
+<body class="text-center">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <a class="p-3 mb-2 bg-primary text-white" href="mailto:theshawns0n@gmail.com">.shawnYandall</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+      <div class="inner">
+        <!-- <h3 class="masthead-brand">Shawn</h3> -->
+        <a class="p-3 mb-2 bg-none text-primary" id="myName" href="mailto:theshawns0n@gmail.com">Shawn Yandall</a>
+        <nav class="nav nav-masthead justify-content-center">
 
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mr">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
+
+          <a class="nav-link active" href="index.html">Home</a>
+
           <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contacts</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
-  <div class="container-sm" style="margin: 2em auto; padding: 2em auto">
-    <div class="row" style="max-width: 991px; height: 20%">
-      <div class="col">
-        <div class="card" style="margin: 2em auto; padding: 2em;">
-          <span class="border-bottom">
-            <h1>Contact Me</h1>
-          </span>
-          <div class="col md-6" style="margin: 1em auto">
-            <div class="form-group">
-              <label for="formGroupExampleInput">Name</label>
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Shon Doe">
-            </div>
-            <div class="form-group">
-              <label for="formGroupExampleInput2">Email</label>
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@fish.net">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message?</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Something nice?"
-                rows="3"></textarea>
-            </div>
-            <div class="row">
-              <div class="col md-8">
-                <a href="mailto:theshawns0n@gmail.com" class="btn btn-primary btn-lg active" role="button"
-                  aria-pressed="true">Send !</a>
-              </div>
-            </div>
-          </div>
-        </div>
+          <a class="nav-link" href="contact.html">Contact</a>
+
+        </nav>
       </div>
-    </div>
+    </header>
+    <main class="inner main">
+      <h1 class="main-heading">Contact</h1>
+      <p>Social/Professional Hubs<br>
+        Links Below
+      </p>
+
+      <br>
+      <a href="https://github.com/dohmr" class="btn btn-outline-dark btn-lg" role="button" aria-pressed="true"><i
+          class="fab fa-github-square"></i></a>
+      <a href="https://linkedin.com/in/shawnyandall" class="btn btn-outline-primary btn-lg" role="button"
+        aria-pressed="true"><i class="fab fa-linkedin"></i></a>
+      <a href="https://stackoverflow.com/users/14198655/theshawns0n" class="btn btn-outline-danger btn-lg" role="button"
+        aria-pressed="true"><i class="fab fa-stack-overflow"></i></a>
+      <a href="mailto:theshawns0n@gmail.com" class="btn btn-outline-warning btn-lg" role="button"
+        aria-pressed="true"><i class="fas fa-envelope"></i>
+
+      </a>
+
+    </main>
+
+
+
+
+    <footer id="sticky-footer" class="py-4 bg-none text-primary-50">
+      <div class="container text-center">
+        <small>Copyright © </small>
+      </div>
+    </footer>
   </div>
 
-  </div>
-  <footer id="sticky-footer" class="py-4 bg-primary text-white-50">
-    <div class="container text-center">
-      <small>Copyright © </small>
-    </div>
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 
 </body>
 
