@@ -1,7 +1,7 @@
 # Entry_Level
 Repo for Self-Depot
 
-# Installation
+# Usage
   Website is deployed via [gitHub](https://dohmr.github.io/Entry_Level/).
   Repository can be found..[here](https://github.com/dohmr/Entry_Level)
     
@@ -21,6 +21,9 @@ Repo for Self-Depot
 This layout and website was created by myself, with the guidance of my instructor, assistance from my T.A., and helpful questions from my peers.
     Many credits go to sites w3schools, stack overflow, and bootstrap.
     
+    As of 09/28 an update/upgrade has occurred. A change in layout design and portfolio update!
+    
 # License
+
 This website is open for critisicm, contorts, and critiques. I welcome those willing to upgrade; _please do!_
     
