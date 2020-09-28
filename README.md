@@ -1,7 +1,7 @@
 # Entry_Level
 Repo for Self-Depot
 
-# Usage
+# Repo and Deploy
   Website is deployed via [gitHub](https://dohmr.github.io/Entry_Level/).
   Repository can be found..[here](https://github.com/dohmr/Entry_Level)
     
