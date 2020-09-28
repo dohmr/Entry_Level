@@ -6,11 +6,11 @@ Repo for Self-Depot
   Repository can be found..[here](https://github.com/dohmr/Entry_Level)
     
 # Usage is **simple**.
-  Navbar is located ontop, and there are _4_ options of 
+  Navbar is located ontop, and there are _3_ options of 
    #### About | Portfolio | Contact
     About contains a brief bio, as well as links to appropriate social media.
-    Portfolio contains original placeholder images.
-    Contacts will give the user the ability to reach me, via email, linkedIn, gitHub, etc...
+    Portfolio contains projects, personal and group, as well as a resume.
+    Contact will give the user the ability to reach me, via email, linkedIn, gitHub, etc...
     The name at the top is *also* an email prompt.
     Images are within the /Portfolio folder within the repository.
     
@@ -21,9 +21,20 @@ Repo for Self-Depot
 This layout and website was created by myself, with the guidance of my instructor, assistance from my T.A., and helpful questions from my peers.
     Many credits go to sites w3schools, stack overflow, and bootstrap.
     
-    As of 09/28 an update/upgrade has occurred. A change in layout design and portfolio update!
     
-# License
+    As of 09/28 an update/upgrade has occurred. A change in layout design and portfolio update!
+    Site contains HTML / CSS while using Bootstrap framework
+    
+# Screens
+Landing page; About Me:
 
-This website is open for critisicm, contorts, and critiques. I welcome those willing to upgrade; _please do!_
+![About page](Portfolio/about.png);
+
+Portfolio page:
+
+![Portfolio page](Portfolio/port.png);
+
+Contact page:
+
+![Contact page](Portfolio/contact.png);
     
