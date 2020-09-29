@@ -1,0 +1,1 @@
+$( ".link").attr("target", "_blank");
