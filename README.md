@@ -23,7 +23,7 @@ This layout and website was created by myself, with the guidance of my instructo
     
     
     As of 09/28 an update/upgrade has occurred. A change in layout design and portfolio update!
-    Site contains HTML / CSS while using Bootstrap framework
+    Site contains HTML / CSS while using Bootstrap framework.
     
 # Screens
 Landing page; About Me:
